@@ -11,11 +11,9 @@ for i in range(5):
 embeddings = model.encode(sentences)
 
 similarity_matrix = cosine_similarity(embeddings)
-
 print("\nSentences:")
 for i, s in enumerate(sentences):
     print(f"{i+1}. {s}")
-
 
 print("\nSimilarity Matrix:\n", similarity_matrix)
 
