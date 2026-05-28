@@ -1,0 +1,287 @@
+[
+    {
+        "query": "What processor powers NovaTech servers?",
+        "failure_type": "retrieval_failure",
+        "retrieved_chunks": [
+            {
+                "document": "NovaTech uses QuantumCore processors in all enterprise servers.",
+                "score": 0.5259490013122559
+            },
+            {
+                "document": "Vertex Motors released the Falcon X electric car in 2027.",
+                "score": 1.4315003156661987
+            },
+            {
+                "document": "PixelForge designed a VR headset called VisionSphere.",
+                "score": 1.5252057313919067
+            }
+        ],
+        "generated_answer": "QuantumCore processors."
+    },
+    {
+        "query": "Who created MediScan-X?",
+        "failure_type": "retrieval_failure",
+        "retrieved_chunks": [
+            {
+                "document": "AetherAI developed a medical assistant named MediScan-X.",
+                "score": 0.8086280822753906
+            },
+            {
+                "document": "PixelForge designed a VR headset called VisionSphere.",
+                "score": 1.5068182945251465
+            },
+            {
+                "document": "ZenFoods created a protein-rich snack called NutriBite.",
+                "score": 1.6443791389465332
+            }
+        ],
+        "generated_answer": "AetherAI developed MediScan-X."
+    },
+    {
+        "query": "What powers SolarGrid city?",
+        "failure_type": "retrieval_failure",
+        "retrieved_chunks": [
+            {
+                "document": "SolarGrid city runs completely on renewable energy.",
+                "score": 0.9015426635742188
+            },
+            {
+                "document": "AstroPort is the first commercial hotel built in orbit.",
+                "score": 1.4749293327331543
+            },
+            {
+                "document": "TerraFarm grows vegetables using vertical farming systems.",
+                "score": 1.5806212425231934
+            }
+        ],
+        "generated_answer": "SolarGrid city runs completely on renewable energy."
+    },
+    {
+        "query": "Tell me everything about all companies.",
+        "failure_type": "context_overflow",
+        "retrieved_chunks": [
+            {
+                "document": "NovaTech uses QuantumCore processors in all enterprise servers.",
+                "score": 1.2986531257629395
+            },
+            {
+                "document": "Orion Bank stores customer backups in Iceland data centers.",
+                "score": 1.5238995552062988
+            },
+            {
+                "document": "BlueWave Robotics manufactures underwater cleaning robots.",
+                "score": 1.5855462551116943
+            }
+        ],
+        "generated_answer": "Here's the information about the companies mentioned:\n\n1. **NovaTech**:\n   - NovaTech uses QuantumCore processors in all enterprise servers.\n   - No other information is available.\n\n2. **Orion Bank**:\n   - Orion Bank stores customer backups in Iceland data centers.\n   - No other information is available.\n\n3. **BlueWave Robotics**:\n   - BlueWave Robotics manufactures underwater cleaning robots.\n   - No other information is available.\n\nI could not find the answer."
+    },
+    {
+        "query": "Explain all technologies in detail.",
+        "failure_type": "context_overflow",
+        "retrieved_chunks": [
+            {
+                "document": "NovaTech uses QuantumCore processors in all enterprise servers.",
+                "score": 1.2960454225540161
+            },
+            {
+                "document": "EchoWear launched smart jackets with temperature control.",
+                "score": 1.5426898002624512
+            },
+            {
+                "document": "Cryon Labs researches long-term human hibernation technology.",
+                "score": 1.615980625152588
+            }
+        ],
+        "generated_answer": "Based on the provided context, here's an explanation of each technology:\n\n1. **QuantumCore Processors**:\nQuantumCore processors are a type of advanced processor developed by NovaTech. They utilize the principles of quantum mechanics to enhance processing power, speed, and efficiency. QuantumCore processors are designed to handle complex calculations and data processing tasks, making them ideal for enterprise servers. The technology leverages quantum entanglement, superposition, and other quantum phenomena to perform calculations in parallel, resulting in significant performance gains. This allows NovaTech's enterprise servers to handle large amounts of data, provide faster processing times, and improve overall system reliability.\n\n2. **EchoWear Smart Jackets with Temperature Control**:\nEchoWear's smart jackets are wearable devices that incorporate advanced temperature control technology. These jackets use thermoelectric materials or phase-change materials to regulate body temperature. The smart jackets can detect changes in the wearer's body temperature and adjust the temperature accordingly, providing a comfortable and consistent thermal environment. This technology is particularly useful in extreme weather conditions, during exercise, or in situations where temperature control is crucial. The smart jackets can also be integrated with other wearable devices or smartphones to provide additional features and functionality.\n\n3. **Cryon Labs Long-term Human Hibernation Technology**:\nCryon Labs is researching long-term human hibernation technology, which aims to put humans in a state of suspended animation for extended periods. This technology involves using cryoprotectants to preserve the body's tissues and organs, and then cooling the body to a temperature at which metabolic processes slow down or cease. The goal is to revive the individual when needed, with minimal damage or loss of memories. Cryon Labs is exploring various methods to achieve this, including the use of cryogenic fluids, nanotechnology, and advanced life support systems. While still in the experimental stages, this technology has the potential to revolutionize space travel, medical procedures, and emergency response situations."
+    },
+    {
+        "query": "Describe every product mentioned.",
+        "failure_type": "context_overflow",
+        "retrieved_chunks": [
+            {
+                "document": "ZenFoods created a protein-rich snack called NutriBite.",
+                "score": 1.5559686422348022
+            },
+            {
+                "document": "LunaCafe's best-selling drink is the Moonlight Caramel Latte.",
+                "score": 1.638807773590088
+            },
+            {
+                "document": "TerraFarm grows vegetables using vertical farming systems.",
+                "score": 1.6839361190795898
+            }
+        ],
+        "generated_answer": "Here are the descriptions of the products mentioned:\n\n1. NutriBite: A protein-rich snack created by ZenFoods.\n2. Moonlight Caramel Latte: A best-selling drink by LunaCafe.\n3. (No information about TerraFarm's products is provided, only their method of growing vegetables)"
+    },
+    {
+        "query": "Which company makes flying robots?",
+        "failure_type": "answer_context_mismatch",
+        "retrieved_chunks": [
+            {
+                "document": "BlueWave Robotics manufactures underwater cleaning robots.",
+                "score": 1.0619304180145264
+            },
+            {
+                "document": "Vertex Motors released the Falcon X electric car in 2027.",
+                "score": 1.2462174892425537
+            },
+            {
+                "document": "SkyFleet drones can fly continuously for 18 hours without charging.",
+                "score": 1.2761995792388916
+            }
+        ],
+        "generated_answer": "I could not find the answer."
+    },
+    {
+        "query": "Who developed flood prediction AI?",
+        "failure_type": "answer_context_mismatch",
+        "retrieved_chunks": [
+            {
+                "document": "RiverMind developed AI software for flood prediction.",
+                "score": 0.38473695516586304
+            },
+            {
+                "document": "CodeCraft Academy teaches AI engineering in six months.",
+                "score": 1.3514158725738525
+            },
+            {
+                "document": "BlueWave Robotics manufactures underwater cleaning robots.",
+                "score": 1.4836664199829102
+            }
+        ],
+        "generated_answer": "RiverMind developed AI software for flood prediction."
+    },
+    {
+        "query": "Which smartwatch detects dehydration?",
+        "failure_type": "answer_context_mismatch",
+        "retrieved_chunks": [
+            {
+                "document": "PulseFit smartwatches can detect dehydration levels.",
+                "score": 0.223967507481575
+            },
+            {
+                "document": "Cryon Labs researches long-term human hibernation technology.",
+                "score": 1.4296685457229614
+            },
+            {
+                "document": "EchoWear launched smart jackets with temperature control.",
+                "score": 1.4538564682006836
+            }
+        ],
+        "generated_answer": "PulseFit smartwatches can detect dehydration levels."
+    },
+    {
+        "query": "Which company works with advanced systems?",
+        "failure_type": "vague_context",
+        "retrieved_chunks": [
+            {
+                "document": "NovaTech uses QuantumCore processors in all enterprise servers.",
+                "score": 1.0035780668258667
+            },
+            {
+                "document": "NeoBooks publishes interactive holographic textbooks.",
+                "score": 1.4715054035186768
+            },
+            {
+                "document": "PixelForge designed a VR headset called VisionSphere.",
+                "score": 1.479264497756958
+            }
+        ],
+        "generated_answer": "NovaTech uses QuantumCore processors in all enterprise servers, which implies they work with advanced systems."
+    },
+    {
+        "query": "Who makes smart products?",
+        "failure_type": "vague_context",
+        "retrieved_chunks": [
+            {
+                "document": "BlueWave Robotics manufactures underwater cleaning robots.",
+                "score": 1.3807010650634766
+            },
+            {
+                "document": "NovaTech uses QuantumCore processors in all enterprise servers.",
+                "score": 1.3890897035598755
+            },
+            {
+                "document": "ZenFoods created a protein-rich snack called NutriBite.",
+                "score": 1.5080652236938477
+            }
+        ],
+        "generated_answer": "I could not find the answer."
+    },
+    {
+        "query": "Which business uses technology?",
+        "failure_type": "vague_context",
+        "retrieved_chunks": [
+            {
+                "document": "NovaTech uses QuantumCore processors in all enterprise servers.",
+                "score": 1.3340165615081787
+            },
+            {
+                "document": "BlueWave Robotics manufactures underwater cleaning robots.",
+                "score": 1.5336272716522217
+            },
+            {
+                "document": "NeoBooks publishes interactive holographic textbooks.",
+                "score": 1.6090246438980103
+            }
+        ],
+        "generated_answer": "NovaTech uses QuantumCore processors in all enterprise servers."
+    },
+    {
+        "query": "What drink is popular at LunaCafe?",
+        "failure_type": "generation_error",
+        "retrieved_chunks": [
+            {
+                "document": "LunaCafe's best-selling drink is the Moonlight Caramel Latte.",
+                "score": 0.5212612152099609
+            },
+            {
+                "document": "AstroPort is the first commercial hotel built in orbit.",
+                "score": 1.5242018699645996
+            },
+            {
+                "document": "ZenFoods created a protein-rich snack called NutriBite.",
+                "score": 1.547532320022583
+            }
+        ],
+        "generated_answer": "The Moonlight Caramel Latte."
+    },
+    {
+        "query": "Where does Orion Bank store backups?",
+        "failure_type": "generation_error",
+        "retrieved_chunks": [
+            {
+                "document": "Orion Bank stores customer backups in Iceland data centers.",
+                "score": 0.28011390566825867
+            },
+            {
+                "document": "AstroPort is the first commercial hotel built in orbit.",
+                "score": 1.5484182834625244
+            },
+            {
+                "document": "Nimbus Airlines allows pets in all premium cabins.",
+                "score": 1.680601716041565
+            }
+        ],
+        "generated_answer": "Iceland data centers."
+    },
+    {
+        "query": "What vehicle did Vertex Motors release?",
+        "failure_type": "generation_error",
+        "retrieved_chunks": [
+            {
+                "document": "Vertex Motors released the Falcon X electric car in 2027.",
+                "score": 0.5251506567001343
+            },
+            {
+                "document": "BlueWave Robotics manufactures underwater cleaning robots.",
+                "score": 1.5998077392578125
+            },
+            {
+                "document": "NovaTech uses QuantumCore processors in all enterprise servers.",
+                "score": 1.634225845336914
+            }
+        ],
+        "generated_answer": "The Falcon X electric car."
+    }
+]

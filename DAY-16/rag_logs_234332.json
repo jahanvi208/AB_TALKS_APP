@@ -1,0 +1,221 @@
+[
+    {
+        "query": "What is RAG?",
+        "retrieved_chunks": [
+            "RAG stands for Retrieval Augmented",
+            "accuracy in RAG."
+        ],
+        "scores": [
+            0.7799689769744873,
+            0.6863647699356079
+        ],
+        "answer": "Based on context: RAG stands for Retrieval Augmented accuracy in RAG. | Answer: What is RAG?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 2,
+        "answer_score": 3
+    },
+    {
+        "query": "Explain FAISS",
+        "retrieved_chunks": [
+            "FAISS is used for vector"
+        ],
+        "scores": [
+            0.6310991048812866
+        ],
+        "answer": "Based on context: FAISS is used for vector | Answer: Explain FAISS",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 1,
+        "answer_score": 3
+    },
+    {
+        "query": "What is chunking?",
+        "retrieved_chunks": [
+            "Chunking splits large text into",
+            "text into smaller parts.",
+            "parts."
+        ],
+        "scores": [
+            0.6447306871414185,
+            0.3675508499145508,
+            0.35068708658218384
+        ],
+        "answer": "Based on context: Chunking splits large text into text into smaller parts. parts. | Answer: What is chunking?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 3,
+        "answer_score": 3
+    },
+    {
+        "query": "What are embeddings?",
+        "retrieved_chunks": [
+            "Embeddings convert text into vectors.",
+            "language models.",
+            "into vectors."
+        ],
+        "scores": [
+            0.6272977590560913,
+            0.3410140872001648,
+            0.32425811886787415
+        ],
+        "answer": "Based on context: Embeddings convert text into vectors. language models. into vectors. | Answer: What are embeddings?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 3,
+        "answer_score": 3
+    },
+    {
+        "query": "What is semantic search?",
+        "retrieved_chunks": [
+            "Semantic search finds meaning, not",
+            "search.",
+            "meaning, not keywords."
+        ],
+        "scores": [
+            0.8558779954910278,
+            0.4615519046783447,
+            0.41239476203918457
+        ],
+        "answer": "Based on context: Semantic search finds meaning, not search. meaning, not keywords. | Answer: What is semantic search?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 3,
+        "answer_score": 3
+    },
+    {
+        "query": "Who provides LLMs?",
+        "retrieved_chunks": [],
+        "scores": [],
+        "answer": "I don't have enough information.",
+        "failure_type": "retrieval_failure",
+        "retrieval_score": 0,
+        "answer_score": 1
+    },
+    {
+        "query": "Why is context important?",
+        "retrieved_chunks": [
+            "Context improves answer accuracy in",
+            "meaning, not keywords."
+        ],
+        "scores": [
+            0.5966662168502808,
+            0.310867577791214
+        ],
+        "answer": "Based on context: Context improves answer accuracy in meaning, not keywords. | Answer: Why is context important?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 2,
+        "answer_score": 3
+    },
+    {
+        "query": "What is hallucination?",
+        "retrieved_chunks": [
+            "can hallucinate.",
+            "Large Language Models can hallucinate."
+        ],
+        "scores": [
+            0.7338396310806274,
+            0.4911539554595947
+        ],
+        "answer": "Based on context: can hallucinate. Large Language Models can hallucinate. | Answer: What is hallucination?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 2,
+        "answer_score": 3
+    },
+    {
+        "query": "How to improve prompts?",
+        "retrieved_chunks": [
+            "Prompt engineering improves outputs."
+        ],
+        "scores": [
+            0.5686842203140259
+        ],
+        "answer": "Based on context: Prompt engineering improves outputs. | Answer: How to improve prompts?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 1,
+        "answer_score": 3
+    },
+    {
+        "query": "What is AB Talks?",
+        "retrieved_chunks": [
+            "AB Talks is an AI"
+        ],
+        "scores": [
+            0.7650785446166992
+        ],
+        "answer": "Based on context: AB Talks is an AI | Answer: What is AB Talks?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 1,
+        "answer_score": 3
+    },
+    {
+        "query": "Explain vector search",
+        "retrieved_chunks": [
+            "for vector similarity search.",
+            "into vectors.",
+            "FAISS is used for vector"
+        ],
+        "scores": [
+            0.6802664995193481,
+            0.4895092844963074,
+            0.4607350826263428
+        ],
+        "answer": "Based on context: for vector similarity search. into vectors. FAISS is used for vector | Answer: Explain vector search",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 3,
+        "answer_score": 3
+    },
+    {
+        "query": "Why does RAG fail?",
+        "retrieved_chunks": [
+            "accuracy in RAG.",
+            "RAG stands for Retrieval Augmented"
+        ],
+        "scores": [
+            0.7156347036361694,
+            0.6140622496604919
+        ],
+        "answer": "Based on context: accuracy in RAG. RAG stands for Retrieval Augmented | Answer: Why does RAG fail?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 2,
+        "answer_score": 3
+    },
+    {
+        "query": "What is AI?",
+        "retrieved_chunks": [
+            "an AI learning initiative.",
+            "AB Talks is an AI",
+            "initiative."
+        ],
+        "scores": [
+            0.6799639463424683,
+            0.5629299283027649,
+            0.43622535467147827
+        ],
+        "answer": "Based on context: an AI learning initiative. AB Talks is an AI initiative. | Answer: What is AI?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 3,
+        "answer_score": 3
+    },
+    {
+        "query": "Explain transformers",
+        "retrieved_chunks": [
+            "outputs."
+        ],
+        "scores": [
+            0.34650927782058716
+        ],
+        "answer": "Based on context: outputs. | Answer: Explain transformers",
+        "failure_type": "vague_context",
+        "retrieval_score": 1,
+        "answer_score": 3
+    },
+    {
+        "query": "How does OpenAI work?",
+        "retrieved_chunks": [
+            "OpenAI provides powerful language models."
+        ],
+        "scores": [
+            0.5853657722473145
+        ],
+        "answer": "Based on context: OpenAI provides powerful language models. | Answer: How does OpenAI work?",
+        "failure_type": "possible_generation_error",
+        "retrieval_score": 1,
+        "answer_score": 3
+    }
+]
